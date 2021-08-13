@@ -1,0 +1,101 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+
+
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#wrap-reverse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    #wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    * {
+        text-align: center;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .button {
+        margin: 0% 2%;
+    }
+}
+
+.home {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#whatsapp {
+    background-color: rgb(30, 219, 30);
+    color: black;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+#adan:hover {
+    box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+#adan {
+    box-shadow: 2px solid black;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: cyan;
+    color: darkblue;
+}
+
+#beware {
+    box-shadow: 2px solid black;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(144, 255, 129);
+    color: black;
+}
+
+#beware:hover {
+    box-shadow: 5px 1px 9px 5px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+#house {
+    height: 250px;
+}
+
+#win {
+    height: 750px;
+    width: 1200px;
+}
+
+#develop {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: larger;
+}

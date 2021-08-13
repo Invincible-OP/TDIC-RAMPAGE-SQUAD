@@ -1,0 +1,55 @@
+#ques {
+    width: 1350px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+    background-size: 100% 100%;
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 0;
+}
+
+div {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    margin: 10px 0;
+}
+
+p,
+input[type=text],
+input[type=number],
+textarea,
+form {
+    width: 350px;
+    padding: 8px;
+}
+
+p,
+form {
+    margin: auto;
+}
+
+* {
+    text-align: center;
+}
+
+#home {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
