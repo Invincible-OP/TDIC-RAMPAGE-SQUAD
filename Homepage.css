@@ -37,6 +37,11 @@ footer {
         width: fit-content;
     }
 
+    img {
+        height: fit-content;
+        width: fit-content;
+    }
+
     .button {
         margin: 0% 2%;
     }
@@ -48,6 +53,7 @@ footer {
     height: 30px;
     width: 200px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 #whatsapp {
@@ -57,6 +63,7 @@ footer {
     width: 300px;
     font-size: 20px;
     font-family: fantasy;
+    cursor: pointer;
 }
 
 #adan:hover {
@@ -98,4 +105,12 @@ footer {
     font-family: sans-serif;
     font-style: italic;
     font-size: larger;
+}
+
+label {
+    font-size: 25px;
+}
+
+#submita {
+    background-color: rgb(9, 255, 181);
 }

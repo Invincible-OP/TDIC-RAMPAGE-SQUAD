@@ -10,6 +10,8 @@ var home = document.getElementById("home");
 
 var whatsapp = document.getElementById("whatsapp");
 
+var tasks = document.getElementById("tasks")
+
 aboutus.onclick = () => {
     location.href = "./aboutus.html";
 }
@@ -32,4 +34,12 @@ home.onclick = () => {
 
 whatsapp.onclick = () => {
     location = "https://chat.whatsapp.com/Etf4BnuazkN1YkrE3dvhvb";
+}
+
+function submita() {
+    if (document.getElementById("tasks").checked) {
+        divans.innerHTML = "Good Work teammate. Task completed. Now msg the main captain about your work with all the details and see your rank rising."
+    } else {
+        divans.innerHTML = "Complete all the tasks given"
+    }
 }
